@@ -7,6 +7,11 @@ class ConvertIntegerToRomanNumeral
       integer = integer % 100
     end
 
+    if integer >= 90
+      roman_numeral << x(1) + c(1)
+      integer = integer - 90
+    end
+
     if integer >= 50
       roman_numeral << l(integer / 50)
       integer = integer % 50

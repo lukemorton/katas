@@ -91,6 +91,16 @@ RSpec.describe ConvertIntegerToRomanNumeral do
     87 => 'LXXXVII',
     88 => 'LXXXVIII',
     89 => 'LXXXIX',
+    90 => 'XC',
+    91 => 'XCI',
+    92 => 'XCII',
+    93 => 'XCIII',
+    94 => 'XCIV',
+    95 => 'XCV',
+    96 => 'XCVI',
+    97 => 'XCVII',
+    98 => 'XCVIII',
+    99 => 'XCIX',
     100 => 'C',
   }
 
