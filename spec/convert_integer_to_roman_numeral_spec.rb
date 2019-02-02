@@ -104,6 +104,7 @@ RSpec.describe ConvertIntegerToRomanNumeral do
     100 => 'C',
     200 => 'CC',
     300 => 'CCC',
+    400 => 'CD',
     500 => 'D',
   }
 
