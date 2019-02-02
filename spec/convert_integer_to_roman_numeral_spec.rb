@@ -103,8 +103,11 @@ RSpec.describe ConvertIntegerToRomanNumeral do
     99 => 'XCIX',
     100 => 'C',
     200 => 'CC',
+    207 => 'CCVII',
+    246 => 'CCXLVI',
     300 => 'CCC',
     400 => 'CD',
+    421 => 'CDXXI',
     500 => 'D',
   }
 
