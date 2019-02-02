@@ -111,6 +111,11 @@ RSpec.describe ConvertIntegerToRomanNumeral do
     500 => 'D',
     900 => 'CM',
     1000 => 'M',
+    1066 => 'MLXVI',
+    1776 => 'MDCCLXXVI',
+    1954 => 'MCMLIV',
+    1990 => 'MCMXC',
+    2014 => 'MMXIV',
   }
 
   expectations.each do |(integer, roman_numeral)|
