@@ -2,6 +2,11 @@ class ConvertIntegerToRomanNumeral
   def execute(integer)
     roman_numeral = ''
 
+    if integer >= 100
+      roman_numeral << c(integer / 100)
+      integer = integer % 100
+    end
+
     if integer >= 50
       roman_numeral << l(integer / 50)
       integer = integer % 50
@@ -51,5 +56,9 @@ class ConvertIntegerToRomanNumeral
 
   def l(integer)
     'L' * integer
+  end
+
+  def c(integer)
+    'C' * integer
   end
 end

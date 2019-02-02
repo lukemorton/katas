@@ -91,6 +91,7 @@ RSpec.describe ConvertIntegerToRomanNumeral do
     87 => 'LXXXVII',
     88 => 'LXXXVIII',
     89 => 'LXXXIX',
+    100 => 'C',
   }
 
   expectations.each do |(integer, roman_numeral)|
